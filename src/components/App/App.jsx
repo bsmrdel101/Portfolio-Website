@@ -8,6 +8,8 @@ import {
 
 import Nav from '../Nav/Nav';
 import HomePage from '../HomePage/HomePage';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
+
 import './App.css';
 
 function App() {
@@ -19,13 +21,20 @@ function App() {
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
           <Redirect exact from="/" to="/home" />
 
-          {/* Visiting localhost:3000/about will show the about page. */}
+          {/* Home page */}
           <Route
-            // shows AboutPage at all times (logged in or not)
             exact
             path="/home"
           >
             <HomePage />
+          </Route>
+
+          {/* Portfolio Page */}
+          <Route
+            exact
+            path="/portfolio"
+          >
+            <PortfolioPage />
           </Route>
 
           {/* If none of the other routes matched, we will show a 404. */}
