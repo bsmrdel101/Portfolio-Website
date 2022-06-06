@@ -23,9 +23,15 @@ img {
   text-align: center;
 }
 
-.grid-right {
-  margin-left: 50%;
+.small-container {
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f0f8ff38;
+  color: #dbdbdb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 
 /* --------------------------------------------------------------------------------
 Scrollbar
