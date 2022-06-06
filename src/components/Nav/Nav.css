@@ -28,8 +28,6 @@
   text-decoration: none;
   font-size: 20px;
 
-  /* these last two make the logout button in
-  the nav bar look like another link */
   border: none;
   cursor: pointer;
   outline: 0;
