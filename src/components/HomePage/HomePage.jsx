@@ -17,11 +17,15 @@ function HomePage() {
 
   return (
     <div className="container">
-      <Header />
+      <section className='animation-screen'>
+        <div id='rocket-anim'></div>
+      </section>
+      <section className='page'>
+        <Header />
         <center>
           <img className='profile-pic' src='profile_pic.jpeg' />
-          <div id='rocket-anim'></div>
         </center>
+      </section>
     </div>
   );
 }

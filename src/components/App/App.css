@@ -27,6 +27,14 @@ img {
 
 #rocket-anim {
   height: 300px;
+  position: absolute;
+  top: 25%;
+}
+
+.animation-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* --------------------------------------------------------------------------------
