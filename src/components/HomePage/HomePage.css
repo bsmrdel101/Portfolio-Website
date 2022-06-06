@@ -37,9 +37,10 @@
     animation-delay: 1s;
 }
 
-.animation-screen {
-    animation: screenTransition 2s ease both;
+#rocket-anim {
+    animation: screenTransition 0.3s both;
 }
+
 .animation-screen {
     animation: slideOut 0.8s both;
     animation-delay: 1s;
@@ -52,14 +53,13 @@
 
 @keyframes screenTransition {
     0% {
-        transform: translate(0, 70px);
+        transform: translate(0, 200px);
     }
     50% {
         transform: translate(0, 20px);
     }
     100% {
         transform: translate(0, 70px);
-        opacity: 0;
     }
 }
 
