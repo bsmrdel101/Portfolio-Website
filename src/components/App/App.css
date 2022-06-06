@@ -40,8 +40,9 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: rgba(169, 169, 169, 0.599);
   outline: 1px solid slategrey;
+  border-radius: 15px;
 }
 
 /* --------------------------------------------------------------------------------

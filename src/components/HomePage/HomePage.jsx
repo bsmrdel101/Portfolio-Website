@@ -29,6 +29,12 @@ function HomePage() {
         <Header />
         <center>
           <img className='profile-pic' src='profile_pic.jpeg' />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </center>
       </section>
     </div>
