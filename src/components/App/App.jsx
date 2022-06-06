@@ -30,7 +30,8 @@ function App() {
 
           {/* If none of the other routes matched, we will show a 404. */}
           <Route>
-            <h1 className='container'>404</h1>
+            <h1 className='container error-screen'>404</h1>
+            <h1 className='container error-screen'>Page not found</h1>
           </Route>
         </Switch>
       </div>
