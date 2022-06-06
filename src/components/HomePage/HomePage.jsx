@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import lottie from 'lottie-web';
 
 // MUI
@@ -8,6 +9,8 @@ import Header from '../Header/Header';
 import './HomePage.css';
 
 function HomePage() {
+  const history = useHistory();
+
   let pageActive = false;
 
   useEffect (() => {
@@ -71,23 +74,46 @@ function HomePage() {
           <Grid item xs={6}></Grid>
           <Grid item sm={12} lg={6}>
             <div className='small-container reveal'>
-              <h1>Education</h1>
-              <h5>Prime Digital Academy | Sep 2021 to Feb 2022</h5>
-              <p>Prime is an immersive learning program for full stack web development, that teaches students about the different technologies, languages, and industry practices used in full stack development.</p>
+              <h1>Skills</h1>
+              <div className='skills-list-container'>
+                <ul>
+                  <li>Javascript</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>HTML / CSS</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <ul>
+                  <li>C#</li>
+                  <li>.NET Core</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>Git / Github</li>
+                  <li>Unity</li>
+                </ul>
+                <ul>
+                  <li>Jest</li>
+                  <li>Redux / Sagas</li>
+                  <li>Socket.io</li>
+                  <li>Material UI</li>
+                </ul>
+              </div>
             </div> 
           </Grid>
           <Grid item xs={6}></Grid>
           <Grid item xs={12}></Grid>
           <Grid item sm={12} lg={6}>
             <div className='small-container reveal'>
-              <h1>About Me</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dolorem eligendi impedit modi possimus ad beatae ab necessitatibus hic. Repellat repudiandae, vitae eaque at pariatur facilis ea dolorem quo? Aliquid cumque, quia quibusdam accusantium facilis sit iure numquam vero nemo fugiat beatae cum nisi molestiae minus enim similique? Ad, beatae at? Excepturi, reiciendis natus?</p>
+              <h1>Education</h1>
+              <h5>Prime Digital Academy | Sep 2021 to Feb 2022</h5>
+              <p>Prime is an immersive learning program for full stack web development, that teaches students about the different technologies, languages, and industry practices used in full stack development.</p>
             </div> 
           </Grid>
           <Grid item xs={12}></Grid>
           <Grid item xs={12}>
             <center>
-              <button className='see-my-work'>See my work!</button>
+              <button id='see-my-work' onClick={() => history.push("/portfolio")}>See my work!</button>
             </center>
           </Grid>
         </Grid>
