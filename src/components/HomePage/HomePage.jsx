@@ -6,6 +6,7 @@ import './HomePage.css';
 
 function HomePage() {
   useEffect (() => {
+    // Setup animation
     lottie.loadAnimation({
       container: document.getElementById('rocket-anim'), // the dom element that will contain the animation
       renderer: 'svg',
@@ -13,6 +14,10 @@ function HomePage() {
       autoplay: true,
       path: 'https://assets3.lottiefiles.com/packages/lf20_l3qxn9jy.json' // the path to the animation json
     });
+    // Delete animation
+    setTimeout(() => {
+      document.getElementById('rocket-anim').remove()
+    }, 1300);
   }, []);
 
   return (

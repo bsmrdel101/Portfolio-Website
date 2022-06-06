@@ -5,6 +5,76 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+
+/* Animations */
+
 .page {
     opacity: 0;
+    animation: slideIn 0.8s ease forwards;
+    animation-delay: 1s;
 }
+
+.animation-screen {
+    animation: screenTransition 2s ease both;
+}
+.animation-screen {
+    animation: slideOut 0.8s both;
+    animation-delay: 1s;
+}
+
+.nav {
+    animation: fadeIn 2s both ease;
+    animation-delay: 1s;
+}
+
+@keyframes screenTransition {
+    0% {
+        transform: translate(0, 70px);
+    }
+    50% {
+        transform: translate(0, 20px);
+    }
+    100% {
+        transform: translate(0, 70px);
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(1400px);
+      opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* @keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} */
