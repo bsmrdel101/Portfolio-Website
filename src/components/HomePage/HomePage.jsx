@@ -45,6 +45,23 @@ function HomePage() {
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dolorem eligendi impedit modi possimus ad beatae ab necessitatibus hic. Repellat repudiandae, vitae eaque at pariatur facilis ea dolorem quo? Aliquid cumque, quia quibusdam accusantium facilis sit iure numquam vero nemo fugiat beatae cum nisi molestiae minus enim similique? Ad, beatae at? Excepturi, reiciendis natus?</p>
             </div> 
           </Grid>
+          <Grid item xs={12}></Grid>
+          <Grid item xs={6}></Grid>
+          <Grid item sm={12} lg={6}>
+            <div className='about-container'>
+              <h1>About Me</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dolorem eligendi impedit modi possimus ad beatae ab necessitatibus hic. Repellat repudiandae, vitae eaque at pariatur facilis ea dolorem quo? Aliquid cumque, quia quibusdam accusantium facilis sit iure numquam vero nemo fugiat beatae cum nisi molestiae minus enim similique? Ad, beatae at? Excepturi, reiciendis natus?</p>
+            </div> 
+          </Grid>
+          <Grid item xs={6}></Grid>
+          <Grid item xs={12}></Grid>
+          <Grid item sm={12} lg={6}>
+            <div className='about-container'>
+              <h1>About Me</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dolorem eligendi impedit modi possimus ad beatae ab necessitatibus hic. Repellat repudiandae, vitae eaque at pariatur facilis ea dolorem quo? Aliquid cumque, quia quibusdam accusantium facilis sit iure numquam vero nemo fugiat beatae cum nisi molestiae minus enim similique? Ad, beatae at? Excepturi, reiciendis natus?</p>
+            </div> 
+          </Grid>
+          <Grid item xs={12}></Grid>
         </Grid>
       </section>
     </div>
