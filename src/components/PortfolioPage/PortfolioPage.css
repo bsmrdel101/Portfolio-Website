@@ -1,3 +1,39 @@
 .last-container {
-    margin-bottom: 150px;
+    margin-bottom: 180px;
+}
+
+.portfolio-subtitle {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-description {
+    max-width: 440px;
+}
+
+.card-img {
+    max-width: 550px;
+    border: 1px solid #7880bb;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-name {
+    font-weight: bold;
+}
+
+.app-link {
+    /* text-decoration: underline; */
+    color: #a3adff;
+    transition: 0.3s ease;
+}
+
+.app-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.app-link-container {
+    margin-top: 10px;
 }
