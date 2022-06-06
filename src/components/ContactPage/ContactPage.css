@@ -1,0 +1,25 @@
+.contact-container {
+    padding: 40px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    min-width: 40%;
+}
+
+@media screen and (min-width: 1100px) {
+    .contact-container {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+.contact-icon {
+    width: 80px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.08, 1.08);
+    cursor: pointer;
+}

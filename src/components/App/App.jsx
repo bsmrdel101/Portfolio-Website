@@ -9,6 +9,7 @@ import {
 import Nav from '../Nav/Nav';
 import HomePage from '../HomePage/HomePage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
+import ContactPage from '../ContactPage/ContactPage';
 
 import './App.css';
 
@@ -35,6 +36,14 @@ function App() {
             path="/portfolio"
           >
             <PortfolioPage />
+          </Route>
+
+          {/* Contact Page */}
+          <Route
+            exact
+            path="/contact"
+          >
+            <ContactPage />
           </Route>
 
           {/* If none of the other routes matched, we will show a 404. */}

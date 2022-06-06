@@ -17,7 +17,7 @@ function PortfolioPage() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'https://assets3.lottiefiles.com/packages/lf20_l3qxn9jy.json' // the path to the animation json
+            path: 'https://assets4.lottiefiles.com/packages/lf20_v9riyrep.json' // the path to the animation json
         });
         // Delete the animation after a delay
         setTimeout(() => {
