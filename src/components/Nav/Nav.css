@@ -41,4 +41,9 @@
 .navLink:hover {
   color: #f2f2f2;
   transform: scale(1.08, 1.08);
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+.navLink:focus {
+  text-shadow: 0 0 10px #FFFFFF;
 }
