@@ -9,6 +9,7 @@ import './HomePage.css';
 
 function HomePage() {
   useEffect (() => {
+    window.scrollTo(0,0); // Scroll to top
     // Setup animation
     lottie.loadAnimation({
       container: document.getElementById('rocket-anim'), // the dom element that will contain the animation
@@ -17,7 +18,7 @@ function HomePage() {
       autoplay: true,
       path: 'https://assets3.lottiefiles.com/packages/lf20_l3qxn9jy.json' // the path to the animation json
     });
-    // Delete animation
+    // Delete the animation after a delay
     setTimeout(() => {
       document.getElementById('rocket-anim').remove()
     }, 1300);
