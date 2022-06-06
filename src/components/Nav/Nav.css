@@ -1,11 +1,11 @@
 .nav {
   /* flex box layout */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   margin: 0 0 30px;
-  background-color: #00acb0;
+  background-color: #465c7c;
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 .navLink {
   display: inline-block;
   color: #f2f2f2;
-  background-color: #00acb0;
+  background-color: #465c7c;
   text-align: center;
   padding: 24px 10px;
   text-decoration: none;
@@ -35,8 +35,10 @@
   border: none;
   cursor: pointer;
   outline: 0;
+  transition: ease 0.3s;
 }
 
 .navLink:hover {
-  background-color: #008183;
+  background-color: #526b91;
+  transform: scale(1.08, 1.08);
 }
