@@ -2,6 +2,7 @@ html,
 body,
 #react-root {
   min-height: 100vh;
+  padding-bottom: 20px;
 }
 
 body {
@@ -30,6 +31,28 @@ img {
   background-color: #f0f8ff38;
   color: #dbdbdb;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s ease;
+}
+
+.small-container:hover {
+  transform: scale(1.03, 1.03);
+  box-shadow: rgb(139 144 202) 0px 5px 15px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+}
+.reveal.active {
+  animation: reveal 0.3s ease both;
+}
+
+@media screen and (max-width: 400px) {
+  .reveal {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 
@@ -71,6 +94,13 @@ Animations
   justify-content: center;
 }
 
+@keyframes reveal {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* --------------------------------------------------------------------------------
 Container
 -------------------------------------------------------------------------------- */
@@ -83,6 +113,24 @@ Container
 /* --------------------------------------------------------------------------------
 Button
 -------------------------------------------------------------------------------- */
+
+.see-my-work {
+  background-color: rgb(92 192 184);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  text-shadow: 0 0 10px #FFFFFF;
+  transition: 0.3s ease;
+}
+
+.see-my-work:hover {
+  transform: scale(1.08, 1.08);
+  box-shadow: rgb(91 192 183) 0px 5px 15px;
+}
 
 .btn {
   display: inline-block;
