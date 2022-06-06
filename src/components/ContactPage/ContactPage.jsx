@@ -52,12 +52,14 @@ function ContactPage() {
             <section className='page'>
                 <center>
                     <div className='contact-container'>
-                        <h2>Take a look!</h2>
+                        {/* Contact info */}
+                        <h2>Contact Me</h2>
                         <p className='contact-item'>Email: smrdelb@gmail.com</p>
                         <p className='contact-item'>Phone: (651)-272-6713</p>
                         <p className='contact-item'>Location: Lino Lakes, MN</p>
 
                         {/* Icon links */}
+                        <h2 className='line-gap'>Take a look!</h2>
                         <div className='contact-links-container'>
                             <img className='contact-icon' 
                                 src='linkedin_logo.png'
@@ -66,6 +68,10 @@ function ContactPage() {
                             <img className='contact-icon' 
                                 src='github_logo.png'
                                 onClick={() => window.open("https://github.com/bsmrdel101")} 
+                            />
+                            <img className='contact-icon' 
+                                src='itch.io_logo.png'
+                                onClick={() => window.open("https://firecharger101.itch.io/")} 
                             />
                         </div>
                     </div>

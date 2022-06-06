@@ -17,6 +17,7 @@
     width: 80px;
     padding: 10px;
     transition: 0.3s ease;
+    border-radius: 50%;
 }
 
 .contact-icon:hover {

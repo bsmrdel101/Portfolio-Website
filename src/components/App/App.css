@@ -55,6 +55,15 @@ img {
   }
 }
 
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.line-gap {
+  margin-top: 50px;
+}
 
 /* --------------------------------------------------------------------------------
 Scrollbar
@@ -76,16 +85,6 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(169, 169, 169, 0.599);
   outline: 1px solid slategrey;
   border-radius: 15px;
-}
-
-.card-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.line-gap {
-  margin-top: 50px;
 }
 
 /* --------------------------------------------------------------------------------
