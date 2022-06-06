@@ -57,7 +57,7 @@ function PortfolioPage() {
                 <Grid container spacing={2}>
                     {/* Web Applications */}
                     <Grid item xs={12}>
-                        <h1 className='portfolio-subtitle'>Web Applications</h1>
+                        <center><h1 className='portfolio-subtitle'>Web Applications & Websites</h1></center>
                     </Grid>
                     <Grid item sm={12} lg={10}>
                         <div className='small-container'>
@@ -70,6 +70,7 @@ function PortfolioPage() {
                                 <p className='app-link' onClick={() => window.open("https://github.com/bsmrdel101/Chore-Slayer")}>
                                     Github Repository
                                 </p>
+                                <br />
                                 <p className='app-link' onClick={() => window.open("https://chore-slayer.herokuapp.com/#/home")}>
                                     Deployed App
                                 </p>
@@ -89,6 +90,7 @@ function PortfolioPage() {
                                 <p className='app-link' onClick={() => window.open("https://github.com/bsmrdel101/IOD-1")}>
                                     Github Repository
                                 </p>
+                                <br />
                                 <p className='app-link' onClick={() => window.open("https://internship-on-demand-dev.herokuapp.com/#/user")}>
                                     Deployed App
                                 </p>
@@ -108,6 +110,7 @@ function PortfolioPage() {
                                 <p className='app-link' onClick={() => window.open("https://github.com/bsmrdel101/sh-service-consulting")}>
                                     Github Repository
                                 </p>
+                                <br />
                                 <p className='app-link' onClick={() => window.open("http://sh-compliance-and-consulting.com/")}>
                                     Deployed Website
                                 </p>
@@ -117,26 +120,54 @@ function PortfolioPage() {
                     <Grid item xs={12}></Grid>
 
                     {/* Game Development */}
+                    <span className='line-gap' />
                     <Grid item xs={12}>
-                        <h1 className='portfolio-subtitle'>Game Development</h1>
+                        <center><h1 className='portfolio-subtitle'>Game Development</h1></center>
                     </Grid>
-                    <Grid item sm={12} lg={8}>
+                    <Grid item xs={2}></Grid>
+                    <Grid item sm={12} lg={10}>
                         <div className='small-container reveal'>
-                            <strong><h2 className='card-name'>Time Swap</h2></strong>
+                            <h2 className='card-name'>Time Swap</h2>
+                            <div className='card-content'>
+                                <p className='card-description'>Time Swap is a 2D platformer that has the player complete 3 levels, by swapping dimensions. You only have 5 seconds to spend in either dimension before it collapses, and you die.</p>
+                                <img className='card-img' src='https://img.itch.zone/aW1hZ2UvMTU0MDI4Ni84OTg1MTc1LnBuZw==/original/Jhswrz.png' />
+                            </div>
+                            <div className='app-link-container'>
+                                <p className='app-link' onClick={() => window.open("https://firecharger101.itch.io/time-swap")}>
+                                    Itch.io Page
+                                </p>
+                            </div>
                         </div> 
                     </Grid>
                     <Grid item xs={12}></Grid>
-                    <Grid item xs={4}></Grid>
-                    <Grid item sm={12} lg={8}>
+                    <Grid item sm={12} lg={10}>
                         <div className='small-container reveal'>
-                            <strong><h2 className='card-name'>Polarity Doors</h2></strong>
+                            <h2 className='card-name'>Polarity Doors</h2>
+                            <div className='card-content'>
+                                <p className='card-description'>2D platformer where you have to find both polarities of a magnet, and put them in their respective holders. Doing so opens the door to the next level. Apologies for weird physics/velocity issues, and game difficulty.</p>
+                                <img className='card-img' src='https://img.itch.zone/aW1nLzg4MTYxMTAucG5n/original/YNrezP.png' />
+                            </div>
+                            <div className='app-link-container'>
+                                <p className='app-link' onClick={() => window.open("https://firecharger101.itch.io/polarity-doors")}>
+                                    Itch.io Page
+                                </p>
+                            </div>
                         </div> 
                     </Grid>
-                    <Grid item xs={4}></Grid>
                     <Grid item xs={12}></Grid>
-                    <Grid item sm={12} lg={8}>
+                    <Grid item xs={2}></Grid>
+                    <Grid item sm={12} lg={10}>
                         <div className='small-container reveal last-container'>
-                            <strong><h2 className='card-name'>Watch Your Step</h2></strong>
+                            <h2 className='card-name'>Watch Your Step</h2>
+                            <div className='card-content'>
+                                <p className='card-description'>Move left and right to dodge the incoming basic unity assets. At the same time try to click the green buttons that appear on the right side of the screen. Try and see how far you can make it!</p>
+                                <img className='card-img' src='https://img.itch.zone/aW1nLzkwMzg2OTIucG5n/347x500/OiXmRm.png' />
+                            </div>
+                            <div className='app-link-container'>
+                                <p className='app-link' onClick={() => window.open("https://firecharger101.itch.io/watch-your-step")}>
+                                    Itch.io Page
+                                </p>
+                            </div>
                         </div> 
                     </Grid>
                 </Grid>
