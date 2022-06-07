@@ -48,7 +48,7 @@ img {
   animation: reveal 0.3s ease both;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .reveal {
     transform: translateY(0);
     opacity: 1;
