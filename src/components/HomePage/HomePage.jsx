@@ -97,6 +97,7 @@ function HomePage() {
                   <li>Redux / Sagas</li>
                   <li>Socket.io</li>
                   <li>Material UI</li>
+                  <li>RestAPI</li>
                 </ul>
               </div>
             </div> 

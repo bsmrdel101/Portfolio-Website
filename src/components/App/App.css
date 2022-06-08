@@ -34,10 +34,10 @@ img {
   transition: 0.3s ease;
 }
 
-.small-container:hover {
+/* .small-container:hover {
   transform: scale(1.03, 1.03);
   box-shadow: rgb(139 144 202) 0px 5px 15px;
-}
+} */
 
 .reveal {
   position: relative;
