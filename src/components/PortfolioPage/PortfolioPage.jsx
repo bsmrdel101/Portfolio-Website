@@ -60,7 +60,7 @@ function PortfolioPage() {
                         <center><h1 className='portfolio-subtitle'>Web Applications & Websites</h1></center>
                     </Grid>
                     <Grid item sm={12} lg={10}>
-                        <div className='small-container'>
+                        <div className='small-container-no-hover'>
                             <h2 className='card-name'>Chore Slayer</h2>
                             <div className='card-content'>
                                 <p className='card-description'>Chore Slayer is a task management app, with an AI driven card game built on top of it. The app helps incentivise you to complete your tasks, by rewarding you with “coins” for every 3 tasks completed. You can spend these coins in the store to buy cards, and manage your deck which will be used in the game.  On the game view, you play against an AI in a turn based strategy game(Similar to Hearthstone or Magic the Gathering). The AI gets harder over time as you add new cards to your deck, because it will also add more powerful cards to its deck. There’s also a statistics page to help track your stats from the games you play, and a help page that goes over how to use the app.</p>

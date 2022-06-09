@@ -34,10 +34,24 @@ img {
   transition: 0.3s ease;
 }
 
-/* .small-container:hover {
+.small-container:hover {
   transform: scale(1.03, 1.03);
   box-shadow: rgb(139 144 202) 0px 5px 15px;
-} */
+}
+
+.small-container-no-hover {
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f0f8ff38;
+  color: #dbdbdb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s ease;
+}
+
+.small-container-no-hover:hover {
+  box-shadow: rgb(139 144 202) 0px 5px 15px;
+}
 
 .reveal {
   position: relative;
