@@ -98,7 +98,6 @@ function HomePage() {
                   <li>Socket.io</li>
                   <li>Material UI</li>
                   <li>RestAPI</li>
-                  <li>React Native</li>
                 </ul>
               </div>
             </div> 
